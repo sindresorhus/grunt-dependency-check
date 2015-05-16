@@ -45,7 +45,7 @@ module.exports = function (grunt) {
 			if (opts.missing) {
 				res = dependencyCheck.missing(pkg, deps);
 
-				if (res.length !== 0) {
+				if (res.length > 0) {
 					grunt.warn('Dependencies not listed in package.json:', grunt.log.wordlist(res, {color: 'red'}))
 				}
 			}
