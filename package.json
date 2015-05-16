@@ -1,0 +1,40 @@
+{
+  "name": "grunt-dependency-check",
+  "version": "0.0.0",
+  "description": "Checks which modules you have used in your code and then makes sure they are listed as dependencies in your package.json and vice-versa",
+  "license": "MIT",
+  "repository": "sindresorhus/grunt-dependency-check",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "files": [
+    "tasks"
+  ],
+  "keywords": [
+    "gruntplugin",
+    "dependency",
+    "dependencies",
+    "check",
+    "module",
+    "modules",
+    "package",
+    "packages",
+    "match",
+    "detect"
+  ],
+  "dependencies": {
+    "dependency-check": "^2.4.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13"
+  }
+}
