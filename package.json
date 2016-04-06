@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "grunt"
+    "test": "xo && grunt"
   },
   "files": [
     "tasks"
@@ -34,7 +34,11 @@
     "dependency-check": "^2.4.0"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13"
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "xo": "*"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
   }
 }

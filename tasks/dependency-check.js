@@ -38,7 +38,7 @@ module.exports = function (grunt) {
 				});
 
 				if (res.length > 0) {
-					grunt.log.error('Packages in package.json not used in your code:', grunt.log.wordlist(res, {color: 'red'}))
+					grunt.log.error('Packages in package.json not used in your code:', grunt.log.wordlist(res, {color: 'red'}));
 				}
 			}
 
@@ -46,7 +46,7 @@ module.exports = function (grunt) {
 				res = dependencyCheck.missing(pkg, deps);
 
 				if (res.length > 0) {
-					grunt.warn('Dependencies not listed in package.json:', grunt.log.wordlist(res, {color: 'red'}))
+					grunt.warn('Dependencies not listed in package.json:', grunt.log.wordlist(res, {color: 'red'}));
 				}
 			}
 

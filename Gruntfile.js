@@ -11,9 +11,7 @@ module.exports = function (grunt) {
 
 	grunt.loadTasks('tasks');
 
-	grunt.registerTask('default', [
-		'dependencyCheck',
-	]);
+	grunt.registerTask('default', ['dependencyCheck']);
 
 	var match = false;
 
