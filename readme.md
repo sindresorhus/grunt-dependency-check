@@ -1,4 +1,4 @@
-# grunt-dependency-check [![Build Status](https://travis-ci.org/sindresorhus/grunt-dependency-check.svg?branch=master)](https://travis-ci.org/sindresorhus/grunt-dependency-check)
+# grunt-dependency-check
 
 > Checks which modules you have used in your code and then makes sure they are listed as dependencies in your package.json and vice-versa, using [`dependency-check`](https://github.com/maxogden/dependency-check)
 
